@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falcon Fitness</title>
+</head>
+
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+
+
+<style>
+    /*CSS reset*/
+    body {
+        font-family: 'Balsamiq Sans', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background-image: url('newbg.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+
+
+        /* height: 4545px; */
+    }
+
+    .header {
+        top: 0;
+        background-color: black;
+        position: sticky;
+    }
+
+    .left {
+
+        display: inline-block;
+        /* border: 2px solid green; */
+        position: absolute;
+        left: 34px;
+        top: 0px;
+    }
+
+    .left img {
+        /* border: 1px solid #ddd; */
+        border-radius: 4px;
+        padding: 16px;
+        width: 171px;
+
+
+    }
+
+    .mid {
+        background-color: black;
+        display: block;
+        width: 36%;
+        margin: 12px auto;
+        /* border: 2px solid grey; */
+        border-radius: 12px;
+    }
+
+    .right {
+
+        position: absolute;
+        top: 10px;
+        right: 34px;
+        display: inline-block;
+        /* border: 2px solid grey; */
+        border-radius: 12px;
+    }
+
+    .navbar {
+        display: inline-block;
+
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 217x;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 35px 20px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: rgb(238, 209, 79);
+
+    }
+
+    .btn {
+
+        margin: 9px 10px;
+        background-color: black;
+        color: white;
+        border: 2px solid grey;
+        border-radius: 10px;
+        padding: 2px 0px 2px;
+    }
+
+    .btn:hover {
+        /* text-decoration: underline; */
+        color: rgb(238, 209, 79);
+        ;
+    }
+
+    .container {
+
+        border: 2px solid white;
+        margin: 106px 98px;
+        padding: 65px 40px 0p;
+        width: 37%;
+        border-radius: 30px;
+    }
+
+
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+
+        text-align: center;
+        display: block;
+        width: 400px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 10px auto;
+        font-size: 15px;
+        border-radius: 8px;
+        background-color: whitesmoke;
+
+    }
+
+    .container h1 {
+        text-align: center;
+        font-size: 36px;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+
+    .container img {
+        display: block;
+        width: 38%;
+        margin: 12px auto;
+    }
+</style>
+
+<body>
+  
+
+    <header class="header">
+        <!-- left bow for logo -->
+        <div class="left">
+            <a href="index.html"><img src="pcodnew.png" alt=""></a>
+
+        </div>
+        <!-- mid bow for navbar  -->
+        <div class="mid">
+
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <!-- right bow for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <img src="pcodnew.png" alt="">
+        <h1>Join the best gym of NCR now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
